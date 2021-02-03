@@ -1,1 +1,0 @@
-Tengo en una carpeta la pila de PNGs con alfa, exportados del archivo que también he subido, por si es necesario para que funcione como una cinemática en Unity. La idea es que al final del nivel salte esta cinemática. No subo la pila de PNGs para no engordar el GitHub.
