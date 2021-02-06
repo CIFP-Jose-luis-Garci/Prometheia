@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 1275ba1179744ea469e32e5eb1ecdb88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1067409394250289305
+    second: Hoja Sprites 2.0_0
+  - first:
+      213: 57284843608356081
+    second: Hoja Sprites 2.0_1
+  - first:
+      213: 2461718239250702421
+    second: Hoja Sprites 2.0_2
+  - first:
+      213: 8165373711255177975
+    second: Hoja Sprites 2.0_3
+  - first:
+      213: 7467379275114626041
+    second: Hoja Sprites 2.0_4
+  - first:
+      213: 131037141194839983
+    second: Hoja Sprites 2.0_5
+  - first:
+      213: -2596492007732484008
+    second: Hoja Sprites 2.0_6
+  - first:
+      213: 63651775678711921
+    second: Hoja Sprites 2.0_7
+  - first:
+      213: 7407342254108012594
+    second: Hoja Sprites 2.0_8
+  - first:
+      213: -3859444336884210507
+    second: Hoja Sprites 2.0_9
+  - first:
+      213: 8306688030301458743
+    second: Hoja Sprites 2.0_10
+  - first:
+      213: -8804984269260007844
+    second: Hoja Sprites 2.0_11
+  - first:
+      213: -8413837827820072289
+    second: Hoja Sprites 2.0_12
+  - first:
+      213: -9095293877454813469
+    second: Hoja Sprites 2.0_13
+  - first:
+      213: 3385544949888805982
+    second: Hoja Sprites 2.0_14
+  - first:
+      213: -7198220763542508173
+    second: Hoja Sprites 2.0_15
+  - first:
+      213: 5885186461271299346
+    second: Hoja Sprites 2.0_16
+  - first:
+      213: 5816454776119261018
+    second: Hoja Sprites 2.0_17
+  - first:
+      213: 955106022627883575
+    second: Hoja Sprites 2.0_18
+  - first:
+      213: 5089933301843946175
+    second: Hoja Sprites 2.0_19
+  - first:
+      213: -212983922933024840
+    second: Hoja Sprites 2.0_20
+  - first:
+      213: -1824352761141023949
+    second: Hoja Sprites 2.0_21
+  - first:
+      213: 3430452560847673967
+    second: Hoja Sprites 2.0_22
+  - first:
+      213: -495589444057183900
+    second: Hoja Sprites 2.0_23
+  - first:
+      213: -3577561320632352829
+    second: Hoja Sprites 2.0_24
+  - first:
+      213: 3607983630846366617
+    second: Hoja Sprites 2.0_25
+  - first:
+      213: -1106582978904161474
+    second: Hoja Sprites 2.0_26
+  - first:
+      213: -544005785869531598
+    second: Hoja Sprites 2.0_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 936
+        width: 75
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a131e77a8984a249bb26d0215ab6691
+      internalID: 1067409394250289305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 936
+        width: 75
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab8ae023eaac164a825dfc51b474386
+      internalID: 57284843608356081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 936
+        width: 75
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f5e1526bfd75a4bafb7e2e280b0f3a
+      internalID: 2461718239250702421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 936
+        width: 75
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f65d6439e6b63468d37994b6535a4c
+      internalID: 8165373711255177975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_4
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 936
+        width: 105
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d45664a9a2003b489ab0c6da0cbc35b
+      internalID: 7467379275114626041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_5
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 936
+        width: 105
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9f34e0546ea8d4fb69d597c31fd568
+      internalID: 131037141194839983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_6
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 935
+        width: 106
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfe83dde1f7b204f9702d6e5dbb2c34
+      internalID: -2596492007732484008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_7
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 936
+        width: 103
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd5851797074984fb9016f91bcf24b9
+      internalID: 63651775678711921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_8
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 935
+        width: 100
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6057cf50944126489a893871b79a497
+      internalID: 7407342254108012594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_9
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 935
+        width: 105
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4fab7af4527f94f95c661bb3029a9a
+      internalID: -3859444336884210507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 792
+        width: 75
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ffd04f0a5a0014a8af5610b778468b
+      internalID: 8306688030301458743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 792
+        width: 75
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f08cc7fd5c58f478b08de5b87ac43e
+      internalID: -8804984269260007844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 792
+        width: 111
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8dad226dbdcdc46a4d3b931c9a2e44
+      internalID: -8413837827820072289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_13
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 792
+        width: 111
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f739fd4239f30f40a8245cffc66f207
+      internalID: -9095293877454813469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_14
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 792
+        width: 118
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8804637bd87e29d46b9d175c3ddb3191
+      internalID: 3385544949888805982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_15
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 792
+        width: 113
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ec257ba951fa469669eab91a4ab68
+      internalID: -7198220763542508173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_16
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 792
+        width: 140
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ab10338de4efd4ab469014c3287bbe
+      internalID: 5885186461271299346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_17
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 792
+        width: 121
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7354b0236f78344866240100a46277
+      internalID: 5816454776119261018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_18
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 792
+        width: 121
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6323072689cedb49b421aed347324aa
+      internalID: 955106022627883575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_19
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 792
+        width: 117
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfbd61a4a41973478d1c8bbbaeb5000
+      internalID: 5089933301843946175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_20
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 648
+        width: 102
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a71ed3ad5f338448c2b8e0a2542cf9
+      internalID: -212983922933024840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_21
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 648
+        width: 102
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5660aa7cd2576b41938126086abfbe2
+      internalID: -1824352761141023949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_22
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 648
+        width: 136
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3207f7f67e00f7c4a947221380f6b0bf
+      internalID: 3430452560847673967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_23
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 647
+        width: 118
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b66c1a96e7d3e4a95f24a8b5531873
+      internalID: -495589444057183900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_24
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 647
+        width: 118
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aec3bc88165734c91ee44d7f86a918
+      internalID: -3577561320632352829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_25
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 648
+        width: 113
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fe3199ad5d06945979ab36b5a3149a
+      internalID: 3607983630846366617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_26
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 504
+        width: 110
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604b5fc387bb4d64993396f4793563b4
+      internalID: -1106582978904161474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja Sprites 2.0_27
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 504
+        width: 110
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6da3efab6b14a489c5cc70abe279d0
+      internalID: -544005785869531598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1621e7232b5b8ca48903d191143856fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
