@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: f47c222cb3bcc4e46b090a9baff617b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4719911079778999488
+    second: sprites_escenarios_2_0
+  - first:
+      213: -994906568754983554
+    second: sprites_escenarios_2_1
+  - first:
+      213: -6562593041959834310
+    second: sprites_escenarios_2_2
+  - first:
+      213: -3144397295353919246
+    second: sprites_escenarios_2_3
+  - first:
+      213: 4088281819219276044
+    second: sprites_escenarios_2_4
+  - first:
+      213: 934346059170851266
+    second: sprites_escenarios_2_5
+  - first:
+      213: 3170112700782863585
+    second: sprites_escenarios_2_6
+  - first:
+      213: 3198545124733628725
+    second: sprites_escenarios_2_7
+  - first:
+      213: 541884347407173140
+    second: sprites_escenarios_2_8
+  - first:
+      213: -4277885214811964157
+    second: sprites_escenarios_2_9
+  - first:
+      213: -4526275035644957566
+    second: sprites_escenarios_2_10
+  - first:
+      213: -2987613758287594930
+    second: sprites_escenarios_2_11
+  - first:
+      213: 7266588743035399384
+    second: sprites_escenarios_2_12
+  - first:
+      213: -6221699259436925964
+    second: sprites_escenarios_2_13
+  - first:
+      213: 7695290298320635706
+    second: sprites_escenarios_2_14
+  - first:
+      213: -8836884548143011121
+    second: sprites_escenarios_2_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites_escenarios_2_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 962
+        width: 378
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043a75e41e18f7eb0800000000000000
+      internalID: -4719911079778999488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 962
+        width: 378
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d08a83fb16132f0800000000000000
+      internalID: -994906568754983554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 826
+        width: 378
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3da880066cfce4a0800000000000000
+      internalID: -6562593041959834310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 824
+        width: 378
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f80bb1d15bdc54d0800000000000000
+      internalID: -3144397295353919246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_4
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 535
+        width: 113
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01b04867ae7cb830800000000000000
+      internalID: 4088281819219276044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_5
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 533
+        width: 113
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c92a2a5ac677fc00800000000000000
+      internalID: 934346059170851266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_6
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 463
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4ed1494b08efb20800000000000000
+      internalID: 3170112700782863585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_7
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 461
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5313ec528d3836c20800000000000000
+      internalID: 3198545124733628725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 258
+        width: 354
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4168c8461f8258700800000000000000
+      internalID: 541884347407173140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 258
+        width: 354
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dbc35ff06e1a4c0800000000000000
+      internalID: -4277885214811964157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_10
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 219
+        width: 113
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ce9a816d07f21c0800000000000000
+      internalID: -4526275035644957566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_11
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 215
+        width: 113
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ab23bad1dd986d0800000000000000
+      internalID: -2987613758287594930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_12
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 216
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc2a7536fb18d460800000000000000
+      internalID: 7266588743035399384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_13
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 216
+        width: 130
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb73fdcc7518a9a0800000000000000
+      internalID: -6221699259436925964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 44
+        width: 354
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3749e241c92bca60800000000000000
+      internalID: 7695290298320635706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_escenarios_2_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 46
+        width: 354
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca2cc2c2541d5580800000000000000
+      internalID: -8836884548143011121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f87c9b1e0744f2745b7e7e8774468509
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

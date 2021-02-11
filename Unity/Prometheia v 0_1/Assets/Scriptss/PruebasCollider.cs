@@ -22,7 +22,7 @@ public class PruebasCollider : MonoBehaviour
     void Update()
     {
         MoverSprite();
-
+        
     }
 
     void MoverSprite()
@@ -43,7 +43,7 @@ public class PruebasCollider : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       if(collision.gameObject.name == "Suelo")
+       if(collision.gameObject.tag == "Plataformas")
         {
             print("Colisionando");
             isGrounded = true;
@@ -53,7 +53,7 @@ public class PruebasCollider : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Suelo")
+        if (collision.gameObject.tag == "Plataformas")
         {
             print("NO Colisionando");
             isGrounded = false;
