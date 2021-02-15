@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 2b4373c194871d345aff3f9c6bbf3d34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1031333991719902366
+    second: HOJA SPRITES_0
+  - first:
+      213: 1174682478670927695
+    second: HOJA SPRITES_1
+  - first:
+      213: 2613870814517737997
+    second: HOJA SPRITES_2
+  - first:
+      213: -2455313000785305660
+    second: HOJA SPRITES_3
+  - first:
+      213: -3394298464537104451
+    second: HOJA SPRITES_4
+  - first:
+      213: 3680342566118948481
+    second: HOJA SPRITES_5
+  - first:
+      213: -3291551189082531512
+    second: HOJA SPRITES_6
+  - first:
+      213: 8624257136734534113
+    second: HOJA SPRITES_7
+  - first:
+      213: -5501072349205117097
+    second: HOJA SPRITES_8
+  - first:
+      213: 8562727274006173395
+    second: HOJA SPRITES_9
+  - first:
+      213: 7576188264316412071
+    second: HOJA SPRITES_10
+  - first:
+      213: -8944554410811315327
+    second: HOJA SPRITES_11
+  - first:
+      213: 3134194065055612030
+    second: HOJA SPRITES_12
+  - first:
+      213: 3517031955710676112
+    second: HOJA SPRITES_13
+  - first:
+      213: 8404936242890662632
+    second: HOJA SPRITES_14
+  - first:
+      213: 6865613665309003321
+    second: HOJA SPRITES_15
+  - first:
+      213: -3228903232109366858
+    second: HOJA SPRITES_16
+  - first:
+      213: -2623741515038549245
+    second: HOJA SPRITES_17
+  - first:
+      213: -4412040071726746019
+    second: HOJA SPRITES_18
+  - first:
+      213: 3342665652229000617
+    second: HOJA SPRITES_19
+  - first:
+      213: -5931845635802262812
+    second: HOJA SPRITES_20
+  - first:
+      213: -7023741877688438570
+    second: HOJA SPRITES_21
+  - first:
+      213: 2793828086889304216
+    second: HOJA SPRITES_22
+  - first:
+      213: 6664904055259760192
+    second: HOJA SPRITES_23
+  - first:
+      213: -3815891573743688106
+    second: HOJA SPRITES_24
+  - first:
+      213: 2936344546808694949
+    second: HOJA SPRITES_25
+  - first:
+      213: -7508194233517453379
+    second: HOJA SPRITES_26
+  - first:
+      213: 3548609285931703219
+    second: HOJA SPRITES_27
+  - first:
+      213: -4823033504005915626
+    second: HOJA SPRITES_28
+  - first:
+      213: 5202739084608978376
+    second: HOJA SPRITES_29
+  - first:
+      213: 5999835747706945937
+    second: HOJA SPRITES_30
+  - first:
+      213: 7866097709789497823
+    second: HOJA SPRITES_31
+  - first:
+      213: 8278090002311043493
+    second: HOJA SPRITES_32
+  - first:
+      213: 8622390917386503713
+    second: HOJA SPRITES_33
+  - first:
+      213: 9028577194513097136
+    second: HOJA SPRITES_34
+  - first:
+      213: 6912473180716333374
+    second: HOJA SPRITES_35
+  - first:
+      213: -6134100449071915014
+    second: HOJA SPRITES_36
+  - first:
+      213: -8825125091824459625
+    second: HOJA SPRITES_37
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HOJA SPRITES_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 932
+        width: 77
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c26a719ca83245852298ee2939221
+      internalID: -1031333991719902366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 932
+        width: 78
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9075d34e2714adf4fb13292f9c888efc
+      internalID: 1174682478670927695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 935
+        width: 78
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5897886de23976441a35f9d1d52eb2be
+      internalID: 2613870814517737997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 932
+        width: 77
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3893cec9cf2cc8b41954ebece9ca504c
+      internalID: -2455313000785305660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 932
+        width: 108
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83013aba9ffb71f4782a02a7ccb0fc35
+      internalID: -3394298464537104451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_5
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 932
+        width: 108
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429d2d43e84c76a4d9612d21fe4b64a8
+      internalID: 3680342566118948481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 932
+        width: 109
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6ef89d3d70eb745bc64a4464342be7
+      internalID: -3291551189082531512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 932
+        width: 105
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad08ad1793049441b70f2a81de2fb38
+      internalID: 8624257136734534113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_8
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 932
+        width: 102
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c64b7302ef55448b86bd7758a603dc
+      internalID: -5501072349205117097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_9
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 932
+        width: 108
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d85cb60ae6b2442a2db985c52092c7
+      internalID: 8562727274006173395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_10
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 932
+        width: 76
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eac8aed1593eb48a520d7372238102
+      internalID: 7576188264316412071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_11
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 932
+        width: 77
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8f8c0894f5fa04cb20d539ce7ee117
+      internalID: -8944554410811315327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_12
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 932
+        width: 78
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088a83f0b3231d4a80846f02a9c0e5e
+      internalID: 3134194065055612030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_13
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 932
+        width: 77
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83108bdf58701284abb6c4af9db4db06
+      internalID: 3517031955710676112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 784
+        width: 77
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b29acc4381ad9498bb6f8bae730cd3
+      internalID: 8404936242890662632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 784
+        width: 78
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499da496a43e53242bc07ffb4bd3b58b
+      internalID: 6865613665309003321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_16
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 784
+        width: 112
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034087089029ba4429c10560fbf32c24
+      internalID: -3228903232109366858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_17
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 784
+        width: 114
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc3d323646e380469cd24e2f4c38ed8
+      internalID: -2623741515038549245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_18
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 784
+        width: 121
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c68fae6ddfa6e5448b2c0ae1810b616
+      internalID: -4412040071726746019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 784
+        width: 115
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca2cb307b0b4b2479604350cb605803
+      internalID: 3342665652229000617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_20
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 784
+        width: 143
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fceae5c4be5eb146a9686767a026278
+      internalID: -5931845635802262812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_21
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 784
+        width: 123
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da24e8472fe062444830c6d667c73471
+      internalID: -7023741877688438570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_22
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 784
+        width: 123
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910c3b58d73713447bffbd389c38c79d
+      internalID: 2793828086889304216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_23
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 784
+        width: 120
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137276838a6183e48a03f6f08da42d07
+      internalID: 6664904055259760192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_24
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 795
+        width: 110
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b7f6a3b0cc84d4ebb0412a3279d3d2
+      internalID: -3815891573743688106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_25
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 795
+        width: 109
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4306777fb0d9e4da8be6b69b115ecd
+      internalID: 2936344546808694949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_26
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 784
+        width: 78
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c487a83b1bbe784d95ebfb18c49d582
+      internalID: -7508194233517453379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_27
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 784
+        width: 77
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88547464a26f26142b6a0ef030ac7162
+      internalID: 3548609285931703219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_28
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 638
+        width: 105
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547e665d0f4882544b8a8cacaf5360e1
+      internalID: -4823033504005915626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_29
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 638
+        width: 104
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd61f1df6e8db14d99676e9b7b7bb97
+      internalID: 5202739084608978376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_30
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 638
+        width: 138
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28da2c1384694fd4bb326c8cc939f5d6
+      internalID: 5999835747706945937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_31
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 638
+        width: 120
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68ad523ca2d5b44cb5e927e382869c5
+      internalID: 7866097709789497823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_32
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 638
+        width: 121
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50826aa113fdcd545b212a5965c57727
+      internalID: 8278090002311043493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_33
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 638
+        width: 116
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67364f7f08f98c748963e9d56ff79004
+      internalID: 8622390917386503713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_34
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 636
+        width: 76
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786a4dcb9628a44d85f30646d4e842d
+      internalID: 9028577194513097136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_35
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 638
+        width: 77
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ee5bd969e601048b5a68e8fa053dbc
+      internalID: 6912473180716333374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_36
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 490
+        width: 113
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862c130965447564789eec311121a21d
+      internalID: -6134100449071915014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HOJA SPRITES_37
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 490
+        width: 112
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ac77b50fe11646b8cadb9205997a6
+      internalID: -8825125091824459625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 60191b3716cb38f49ab6ebbcf8bf587a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
