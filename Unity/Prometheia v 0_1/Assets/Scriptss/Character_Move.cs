@@ -10,8 +10,9 @@ public class Character_Move : MonoBehaviour
     [SerializeField] int arma;
 
     //Texto del Canvas (habría que cambiarlo por una imagen)
-    [SerializeField] Text weaponText;
-
+    [SerializeField] Sprite imagen1;
+    [SerializeField] Sprite imagen2;
+    [SerializeField] Image imagen;
     //Parámetros para la animación
     bool lookingLeft;
     Animator anim;
@@ -44,9 +45,7 @@ public class Character_Move : MonoBehaviour
 
         //Comenzamos con el arma 1
         arma = 1;
-        weaponText.text = "Arma: " + arma;
-        anim.SetInteger("Arma", arma);
-
+        imagen.sprite = imagen1;
 
 
     }
@@ -62,7 +61,29 @@ public class Character_Move : MonoBehaviour
         WeaponChange();
     }
 
-    void MoveCharacter()
+    void WeaponChange()
+    {
+        if (weaponButton)
+        {
+            if (arma == 1)
+            {
+                imagen.sprite = imagen2;
+                arma = 2;
+            }
+            else
+            {
+                imagen.sprite = imagen1;
+                arma = 1;
+            }
+            //Cambiamos el texto y el parámetro de animator
+           
+        }
+
+        //Si disparamos
+        anim.SetBool("Shooting", shootButton);
+        }
+
+        void MoveCharacter()
     {
         float desplX = Input.GetAxis("Horizontal");
         anim.SetFloat("MoveHor", desplX);
@@ -130,30 +151,6 @@ public class Character_Move : MonoBehaviour
             anim.SetBool("Crouch", false);
         }
         
-    }
-
-    void WeaponChange()
-    {
-        if(weaponButton)
-        {
-            if(arma == 1)
-            {
-                arma = 2;
-                
-                
-            }
-            else
-            {
-                arma = 1;
-            }
-            //Cambiamos el texto y el parámetro de animator
-            weaponText.text = "Arma: " + arma;
-            anim.SetInteger("Arma", arma);
-        }
-
-        //Si disparamos
-        anim.SetBool("Shooting", shootButton);
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
