@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Saltar_izq
+  m_Name: Shoot_L_1
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -8944554410811315327, guid: 2b4373c194871d345aff3f9c6bbf3d34,
+      value: {fileID: -3859444336884210507, guid: 1275ba1179744ea469e32e5eb1ecdb88,
         type: 3}
-    - time: 0.41666666
-      value: {fileID: 2936344546808694949, guid: 2b4373c194871d345aff3f9c6bbf3d34,
+    - time: 0.11666667
+      value: {fileID: -3859444336884210507, guid: 1275ba1179744ea469e32e5eb1ecdb88,
         type: 3}
-    - time: 0.8333333
-      value: {fileID: 6912473180716333374, guid: 2b4373c194871d345aff3f9c6bbf3d34,
+    - time: 0.2
+      value: {fileID: 5089933301843946175, guid: 1275ba1179744ea469e32e5eb1ecdb88,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -47,15 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -8944554410811315327, guid: 2b4373c194871d345aff3f9c6bbf3d34, type: 3}
-    - {fileID: 2936344546808694949, guid: 2b4373c194871d345aff3f9c6bbf3d34, type: 3}
-    - {fileID: 6912473180716333374, guid: 2b4373c194871d345aff3f9c6bbf3d34, type: 3}
+    - {fileID: -3859444336884210507, guid: 1275ba1179744ea469e32e5eb1ecdb88, type: 3}
+    - {fileID: -3859444336884210507, guid: 1275ba1179744ea469e32e5eb1ecdb88, type: 3}
+    - {fileID: 5089933301843946175, guid: 1275ba1179744ea469e32e5eb1ecdb88, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.84999996
+    m_StopTime: 0.21666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
