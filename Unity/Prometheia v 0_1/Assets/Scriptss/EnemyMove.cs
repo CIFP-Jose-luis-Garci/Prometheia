@@ -7,6 +7,7 @@ public class EnemyMove : MonoBehaviour
   
     Rigidbody2D rb2D;
     Animator anim;
+    
 
     //Distancia a la que se lanza la "midada" (raycast)
     [SerializeField] float distancia;
@@ -20,6 +21,7 @@ public class EnemyMove : MonoBehaviour
         //Componentes del objeto
         rb2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        
 
         //Distancia a la que detecta al enemigo
         distancia = 5f;

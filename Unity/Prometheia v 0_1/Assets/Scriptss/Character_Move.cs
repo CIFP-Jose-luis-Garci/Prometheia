@@ -13,6 +13,7 @@ public class Character_Move : MonoBehaviour
     [SerializeField] Sprite imagen1;
     [SerializeField] Sprite imagen2;
     [SerializeField] Image imagen;
+
     //Parámetros para la animación
     bool lookingLeft;
     Animator anim;
@@ -28,12 +29,18 @@ public class Character_Move : MonoBehaviour
     bool jumpButton;
     bool crouchButton;
     bool weaponButton;
-    bool shootButton;
+    bool isShooting;
+    //Eje para el disparo según el eje
+    float shootingButton;
+
+    //Acceso al script de disparo
+    CharacterShoot characterShoot;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        //RigidBody
         rb2D = GetComponent<Rigidbody2D>();
         //Empezamos en el aire
         isGrounded = false;
@@ -45,7 +52,11 @@ public class Character_Move : MonoBehaviour
 
         //Comenzamos con el arma 1
         arma = 1;
+        anim.SetInteger("Arma", arma);
         imagen.sprite = imagen1;
+
+        //Acceso al script de disparo
+        characterShoot = GetComponent<CharacterShoot>();
 
 
     }
@@ -75,19 +86,20 @@ public class Character_Move : MonoBehaviour
                 imagen.sprite = imagen1;
                 arma = 1;
             }
-            //Cambiamos el texto y el parámetro de animator
-           
+            //Cambiamos el parámetro de animator
+            anim.SetInteger("Arma", arma);
+
         }
 
-        //Si disparamos
-        anim.SetBool("Shooting", shootButton);
-        }
+        
+    }
 
-        void MoveCharacter()
+    void MoveCharacter()
     {
         float desplX = Input.GetAxis("Horizontal");
         anim.SetFloat("MoveHor", desplX);
 
+       
         //Actualizamos el estado del detector de suelo
         anim.SetBool("Grounded", isGrounded);
 
@@ -97,7 +109,8 @@ public class Character_Move : MonoBehaviour
             jumpButton = Input.GetKeyDown(KeyCode.JoystickButton17);
             crouchButton = Input.GetKey(KeyCode.JoystickButton16);
             weaponButton = Input.GetKeyDown(KeyCode.JoystickButton19);
-            shootButton = Input.GetKey(KeyCode.JoystickButton14);
+            
+            shootingButton = Input.GetAxis("FireGamePadMacOS");
 
         }
         else
@@ -105,7 +118,8 @@ public class Character_Move : MonoBehaviour
             jumpButton = Input.GetKeyDown(KeyCode.JoystickButton1);
             crouchButton = Input.GetKey(KeyCode.JoystickButton0);
             weaponButton = Input.GetKeyDown(KeyCode.JoystickButton3);
-            shootButton = Input.GetKey(KeyCode.JoystickButton5);
+
+            shootingButton = Input.GetAxis("FireGamePad");
 
         }
 
@@ -120,9 +134,9 @@ public class Character_Move : MonoBehaviour
         }
         anim.SetBool("Looking_L", lookingLeft);
 
-        //Lo movemos hacia los lados si está en el suelo y no está agachado
+        //Lo movemos hacia los lados si está en el suelo y no está agachado y no está disparando
         Vector2 directionMove = new Vector2(desplX * speed, 0);
-        if(isGrounded && !crouchButton)
+        if(isGrounded && !crouchButton && shootingButton <= 0)
         {
             rb2D.AddForce(directionMove, ForceMode2D.Impulse);
         }
@@ -150,7 +164,47 @@ public class Character_Move : MonoBehaviour
         {
             anim.SetBool("Crouch", false);
         }
-        
+
+        //Cambio de arma
+        /*
+        if(weaponButton)
+        {
+            if(arma == 1)
+            {
+                arma = 2;
+            }
+            else
+            {
+                arma = 1;
+            }
+            //Ponemos el nuevo arma
+            anim.SetInteger("Arma", arma);
+        }
+        */
+
+        //Disparo
+        if(shootingButton > 0 && isGrounded == true)
+        {
+            //print("disparando");
+            anim.SetBool("Disparo", true);
+            //Mandamos el aviso al script de disparo, solo una vez
+            if(isShooting == false)
+            {
+                //Indicamos que estamos disparando
+                isShooting = true;
+                 
+            }
+            
+            
+        }
+        else
+        {
+            isShooting = false;
+            anim.SetBool("Disparo", false);
+            //Detenemos la corrutina del script de disparo
+            characterShoot.SendMessage("stopShooting");
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -171,4 +225,5 @@ public class Character_Move : MonoBehaviour
             isGrounded = false;
         }
     }
+
 }
