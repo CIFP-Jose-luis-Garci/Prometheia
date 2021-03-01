@@ -228,8 +228,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -253,6 +253,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8022614044345450700}
   - component: {fileID: 8150787984305360555}
+  - component: {fileID: 7162850999625691289}
+  - component: {fileID: 2834732886724110195}
+  - component: {fileID: 1139514732901851387}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (89)
   m_TagString: Untagged
@@ -324,6 +327,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &7162850999625691289
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155681465571543381}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.5325775, y: 0.009914398}
+  - {x: 2.18, y: 0}
+--- !u!251 &2834732886724110195
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155681465571543381}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &1139514732901851387
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155681465571543381}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &168065118676075343
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,8 +451,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -714,8 +775,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -876,8 +937,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -901,6 +962,9 @@ GameObject:
   m_Component:
   - component: {fileID: 339664934727648788}
   - component: {fileID: 6623021938501793700}
+  - component: {fileID: 2667717033345737499}
+  - component: {fileID: 4833918286533975483}
+  - component: {fileID: 4319087043265115003}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (82)
   m_TagString: Untagged
@@ -972,6 +1036,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &2667717033345737499
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852925911096142156}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.538788, y: 0}
+--- !u!251 &4833918286533975483
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852925911096142156}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &4319087043265115003
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852925911096142156}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &992276083513687518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,8 +1241,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1200,8 +1322,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1225,6 +1347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7780254891047989113}
   - component: {fileID: 9099848452638595311}
+  - component: {fileID: 2346310290788233736}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (18)
   m_TagString: Untagged
@@ -1281,8 +1404,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1296,6 +1419,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2346310290788233736
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115896644576192413}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 17.338562, y: -0.062672675}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.36, y: 0.66}
+    newSize: {x: 4.36, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 47.771744, y: 0.53465474}
+  m_EdgeRadius: 0
 --- !u!1 &1149681225730911263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1455,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5908079106207640477}
   - component: {fileID: 2474267368207748558}
+  - component: {fileID: 904204680548096324}
+  - component: {fileID: 3020884287678640187}
+  - component: {fileID: 3272429414879100475}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (87)
   m_TagString: Untagged
@@ -1377,6 +1529,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &904204680548096324
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149681225730911263}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.538727, y: 0.014625549}
+  - {x: 2.18, y: 0}
+--- !u!251 &3020884287678640187
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149681225730911263}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &3272429414879100475
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149681225730911263}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1217138697576388224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,6 +1597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4942232169805735231}
   - component: {fileID: 2250419239948965137}
+  - component: {fileID: 2921916543137497430}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (26)
   m_TagString: Untagged
@@ -1443,8 +1654,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1458,6 +1669,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2921916543137497430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217138697576388224}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 47.865917, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.36, y: 0.66}
+    newSize: {x: 4.36, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 100.091835, y: 0.66}
+  m_EdgeRadius: 0
 --- !u!1 &1346258884546193265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,8 +1761,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1686,8 +1923,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1767,8 +2004,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -1848,8 +2085,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -2116,6 +2353,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1042374087414905942}
   - component: {fileID: 7573021695670810390}
+  - component: {fileID: 7666784145748189601}
+  - component: {fileID: 6512267126188448355}
+  - component: {fileID: 8006893860661841090}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (43)
   m_TagString: Untagged
@@ -2187,6 +2427,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &7666784145748189601
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209157044125330020}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5471725, y: -0.0062389374}
+--- !u!251 &6512267126188448355
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209157044125330020}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &8006893860661841090
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209157044125330020}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2223429528485094386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2253,8 +2551,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -2415,8 +2713,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -2602,6 +2900,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1626246032766031202}
   - component: {fileID: 3081040095521597516}
+  - component: {fileID: 7279934656602937111}
+  - component: {fileID: 5474594594747713625}
+  - component: {fileID: 1748958291252716762}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (45)
   m_TagString: Untagged
@@ -2673,6 +2974,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &7279934656602937111
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2531222614850135284}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5414124, y: 0}
+--- !u!251 &5474594594747713625
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2531222614850135284}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &1748958291252716762
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2531222614850135284}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2586678289974886756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,8 +3422,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -3225,8 +3584,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -3387,8 +3746,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -3468,8 +3827,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -3711,8 +4070,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -3873,8 +4232,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -3898,6 +4257,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1228162040337334620}
   - component: {fileID: 4790275176181653808}
+  - component: {fileID: 6329465388922954163}
+  - component: {fileID: 4322733270299753207}
+  - component: {fileID: 2629381015750867049}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (68)
   m_TagString: Untagged
@@ -3969,6 +4331,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &6329465388922954163
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763544379280656770}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5484314, y: 0.010016441}
+--- !u!251 &4322733270299753207
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763544379280656770}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &2629381015750867049
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763544379280656770}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4774115844458201545
 GameObject:
   m_ObjectHideFlags: 0
@@ -4060,6 +4480,9 @@ GameObject:
   m_Component:
   - component: {fileID: 62601295173306960}
   - component: {fileID: 890856180665866604}
+  - component: {fileID: 5564635935917494215}
+  - component: {fileID: 8115830542397333434}
+  - component: {fileID: 4702504001244145659}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (76)
   m_TagString: Untagged
@@ -4131,6 +4554,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &5564635935917494215
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891688079208669724}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.557968, y: -0.0117378235}
+--- !u!251 &8115830542397333434
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891688079208669724}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &4702504001244145659
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891688079208669724}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4958237688444592006
 GameObject:
   m_ObjectHideFlags: 0
@@ -4222,6 +4703,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2375137746126369942}
   - component: {fileID: 3982156060997621289}
+  - component: {fileID: 5485075189401813728}
+  - component: {fileID: 95718522418297622}
+  - component: {fileID: 1826318865293350151}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (41)
   m_TagString: Untagged
@@ -4293,6 +4777,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &5485075189401813728
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019282355384256679}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5399857, y: 0.0058174133}
+--- !u!251 &95718522418297622
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019282355384256679}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &1826318865293350151
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5019282355384256679}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &5040200860839657513
 GameObject:
   m_ObjectHideFlags: 0
@@ -4359,8 +4901,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -4521,8 +5063,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -4764,8 +5306,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -4845,8 +5387,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5007,8 +5549,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5032,6 +5574,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3529161518666354504}
   - component: {fileID: 7176551026569242804}
+  - component: {fileID: 995930284660606309}
+  - component: {fileID: 1634598400873668767}
+  - component: {fileID: 3341152422598395807}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (85)
   m_TagString: Untagged
@@ -5103,6 +5648,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &995930284660606309
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348962151498823925}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.538727, y: 0}
+  - {x: 2.18, y: 0}
+--- !u!251 &1634598400873668767
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348962151498823925}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &3341152422598395807
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348962151498823925}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &5580691526945027685
 GameObject:
   m_ObjectHideFlags: 0
@@ -5169,8 +5772,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5194,6 +5797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5749901115208914536}
   - component: {fileID: 5749901115208914537}
+  - component: {fileID: 7655946873725626889}
   m_Layer: 0
   m_Name: plataformas
   m_TagString: Untagged
@@ -5350,8 +5954,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5365,6 +5969,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &7655946873725626889
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5749901115208914542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 56.588947, y: -0.059548438}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.36, y: 0.66}
+    newSize: {x: 4.36, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 117.537895, y: 0.5409032}
+  m_EdgeRadius: 0
 --- !u!1 &5809536257794671071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5431,8 +6061,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5537,6 +6167,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9097433242596949662}
   - component: {fileID: 6189045100056570906}
+  - component: {fileID: 1238876502985040834}
+  - component: {fileID: 2403044070104992997}
+  - component: {fileID: 8460845245908649799}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (32)
   m_TagString: Untagged
@@ -5608,6 +6241,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1238876502985040834
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967245818934523450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.543083, y: 0}
+--- !u!251 &2403044070104992997
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967245818934523450}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &8460845245908649799
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967245818934523450}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6114787281914846454
 GameObject:
   m_ObjectHideFlags: 0
@@ -5674,8 +6365,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5917,8 +6608,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -5998,8 +6689,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -6023,6 +6714,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3767244928852713572}
   - component: {fileID: 6443382032665832651}
+  - component: {fileID: 8185770643545080952}
+  - component: {fileID: 6646632831191552189}
+  - component: {fileID: 943239185739366126}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (62)
   m_TagString: Untagged
@@ -6094,6 +6788,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &8185770643545080952
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292403836956688328}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5388794, y: -0.005804062}
+--- !u!251 &6646632831191552189
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292403836956688328}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &943239185739366126
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6292403836956688328}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6438637451060307656
 GameObject:
   m_ObjectHideFlags: 0
@@ -6104,6 +6856,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6666379713641678271}
   - component: {fileID: 2141552603799173222}
+  - component: {fileID: 4042928453703216637}
+  - component: {fileID: 5579176684499295306}
+  - component: {fileID: 5303503410704829907}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (64)
   m_TagString: Untagged
@@ -6175,6 +6930,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &4042928453703216637
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438637451060307656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5410767, y: -0.008882523}
+--- !u!251 &5579176684499295306
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438637451060307656}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &5303503410704829907
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6438637451060307656}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6449932917284425342
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,8 +7054,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -6322,8 +7135,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -6403,8 +7216,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -6484,8 +7297,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -6671,6 +7484,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5507779504923119395}
   - component: {fileID: 7783957359504002254}
+  - component: {fileID: 5681421367105467518}
+  - component: {fileID: 3448325546082381142}
+  - component: {fileID: 1790585652885917120}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (80)
   m_TagString: Untagged
@@ -6742,6 +7558,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &5681421367105467518
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904549506271835730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.54126, y: -0.0040302277}
+--- !u!251 &3448325546082381142
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904549506271835730}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &1790585652885917120
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904549506271835730}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7120489225012190885
 GameObject:
   m_ObjectHideFlags: 0
@@ -6808,8 +7682,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -6833,6 +7707,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5414485860911075030}
   - component: {fileID: 7030187630099823880}
+  - component: {fileID: 1095679228401886815}
+  - component: {fileID: 5480643630817152556}
+  - component: {fileID: 343175835480570715}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (70)
   m_TagString: Untagged
@@ -6904,6 +7781,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1095679228401886815
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273663975306517503}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 15.269409, y: -0.0096488}
+--- !u!251 &5480643630817152556
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273663975306517503}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &343175835480570715
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7273663975306517503}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7523777526254204163
 GameObject:
   m_ObjectHideFlags: 0
@@ -7076,6 +8011,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7303066041173209552}
   - component: {fileID: 5569893338290240371}
+  - component: {fileID: 2416017157497165893}
+  - component: {fileID: 8424814362525711453}
+  - component: {fileID: 6769382634583965467}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (66)
   m_TagString: Untagged
@@ -7147,6 +8085,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &2416017157497165893
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7756517797721793581}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.541748, y: -0.015335083}
+--- !u!251 &8424814362525711453
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7756517797721793581}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &6769382634583965467
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7756517797721793581}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7856594729419155478
 GameObject:
   m_ObjectHideFlags: 0
@@ -7375,8 +8371,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -7481,6 +8477,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1787647907230936612}
   - component: {fileID: 4397665003104788536}
+  - component: {fileID: 3466108121575970862}
+  - component: {fileID: 3165715217873679189}
+  - component: {fileID: 135131498780968279}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (74)
   m_TagString: Untagged
@@ -7552,6 +8551,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &3466108121575970862
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971872515982159344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.532593, y: 0}
+--- !u!251 &3165715217873679189
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971872515982159344}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &135131498780968279
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971872515982159344}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8279911045638017603
 GameObject:
   m_ObjectHideFlags: 0
@@ -7643,6 +8700,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3029429328176188142}
   - component: {fileID: 1876768486978923532}
+  - component: {fileID: 483262467166938512}
+  - component: {fileID: 4835926880207289231}
+  - component: {fileID: 6571552062141666285}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (91)
   m_TagString: Untagged
@@ -7714,6 +8774,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &483262467166938512
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395145862639111893}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.538788, y: -0.013622284}
+  - {x: 2.18, y: 0}
+--- !u!251 &4835926880207289231
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395145862639111893}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &6571552062141666285
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395145862639111893}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8515328570175067628
 GameObject:
   m_ObjectHideFlags: 0
@@ -7780,8 +8898,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -7861,8 +8979,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -7942,8 +9060,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}
@@ -8048,6 +9166,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3389144287953006147}
   - component: {fileID: 8443930691865268859}
+  - component: {fileID: 7434427015335565998}
+  - component: {fileID: 5067759592806841600}
+  - component: {fileID: 379002534084161255}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (78)
   m_TagString: Untagged
@@ -8119,6 +9240,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &7434427015335565998
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8799497339091378303}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.524109, y: 0}
+--- !u!251 &5067759592806841600
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8799497339091378303}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &379002534084161255
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8799497339091378303}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &8912000843905009044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8129,6 +9308,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6095892867242985703}
   - component: {fileID: 8768329637543390173}
+  - component: {fileID: 3565207839758313395}
+  - component: {fileID: 4993880131227647925}
+  - component: {fileID: 469977479644510073}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (60)
   m_TagString: Untagged
@@ -8200,6 +9382,64 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &3565207839758313395
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912000843905009044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.18, y: 0}
+  - {x: 6.5385895, y: 0.0064296722}
+--- !u!251 &4993880131227647925
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912000843905009044}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!50 &469977479644510073
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912000843905009044}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &9204243580478614098
 GameObject:
   m_ObjectHideFlags: 0
@@ -8266,8 +9506,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1547318225
-  m_SortingLayer: 0
+  m_SortingLayerID: 1784310977
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2069237484142696676, guid: 17b6e64c770eab74c940b9b029a12b17,
     type: 3}

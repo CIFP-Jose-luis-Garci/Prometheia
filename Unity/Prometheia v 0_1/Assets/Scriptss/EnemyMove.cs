@@ -33,7 +33,7 @@ public class EnemyMove : MonoBehaviour
         
 
         //Distancia a la que detecta al enemigo
-        distancia = 5f;
+        distancia = 11f;
 
         //Tiempo de ronda e iniciamos la ronda
         rondaTime = 4f;
@@ -104,7 +104,7 @@ public class EnemyMove : MonoBehaviour
             disparar = false;
             anim.SetBool("Disparar", disparar);
             anim.SetBool("Corriendo", true);
-            print("ha dejado de impactar");
+            //print("ha dejado de impactar");
             //Dejamos de disparar 
             characterShoot.SendMessage("stopShooting");
         }
