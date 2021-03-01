@@ -71,7 +71,7 @@ public class Bullet : MonoBehaviour
             float dist = Vector3.Distance(characterPos.position, transform.position);
             //print("Distance to other: " + dist);
             //Si la distancia supera 9 unidades se ha salido de pantalla y la destruimos
-            if(dist > 9)
+            if(dist > 11)
             {
                 Destroy(this.gameObject);
             }

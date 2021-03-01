@@ -36,6 +36,7 @@ public class Character_Move : MonoBehaviour
     //Acceso al script de disparo
     CharacterShoot characterShoot;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,7 +58,6 @@ public class Character_Move : MonoBehaviour
 
         //Acceso al script de disparo
         characterShoot = GetComponent<CharacterShoot>();
-
 
     }
 
@@ -135,7 +135,7 @@ public class Character_Move : MonoBehaviour
         anim.SetBool("Looking_L", lookingLeft);
 
         //Lo movemos hacia los lados si está en el suelo y no está agachado y no está disparando
-        Vector2 directionMove = new Vector2(desplX * speed, 0);
+        Vector2 directionMove = new Vector2(desplX * speed * Time.deltaTime, 0);
         if(isGrounded && !crouchButton && shootingButton <= 0)
         {
             rb2D.AddForce(directionMove, ForceMode2D.Impulse);
@@ -211,7 +211,7 @@ public class Character_Move : MonoBehaviour
     {
         if (collision.gameObject.tag == "Plataformas")
         {
-            //print("Colisionando");
+            print("Colisionando");
             isGrounded = true;
         }
 
@@ -221,7 +221,7 @@ public class Character_Move : MonoBehaviour
     {
         if (collision.gameObject.tag == "Plataformas")
         {
-            //print("NO Colisionando");
+            print("NO Colisionando");
             isGrounded = false;
         }
     }

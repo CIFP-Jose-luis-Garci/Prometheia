@@ -27,12 +27,12 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
             
-        Vector3 targetPosition = new Vector3(Target.position.x, Target.position.y + 1f, transform.position.z);     
+        Vector3 targetPosition = new Vector3(Target.position.x, Target.position.y + 3.5f, transform.position.z);     
         transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref camaraVelocity,
            smoothVelocity);
 
 
-        if (targetPosition.x > -10f && targetPosition.x < 97f && targetPosition.y < 4.9f)
+        /*if (targetPosition.x > -10f && targetPosition.x < 97f && targetPosition.y < 4.9f)
         {
             transform.position = new Vector3
             (
@@ -85,7 +85,7 @@ public class CameraMovement : MonoBehaviour
                 transform.position.z
             );
 
-        }
+        }*/
 
 
 
