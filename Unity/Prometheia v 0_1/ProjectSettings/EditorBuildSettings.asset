@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 6b52b8a9e19aa284cbb950e24c2c47e7
+  - enabled: 1
+    path: Assets/Scenes/escenarios_ortografico.unity
+    guid: d36b170fb8a68384db50872e1144a3c8
   m_configObjects: {}
