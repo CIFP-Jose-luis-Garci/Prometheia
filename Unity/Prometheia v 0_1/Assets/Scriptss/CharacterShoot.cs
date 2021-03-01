@@ -14,6 +14,10 @@ public class CharacterShoot : MonoBehaviour
     Transform armaPosR;
     Transform armaPosL;
 
+    //Instanciadores para las balas
+    [SerializeField] GameObject balaPosL;
+    [SerializeField] GameObject balaPosR;
+
     private void Start()
     {
         cadenciaDisparo = 1f;
@@ -21,8 +25,8 @@ public class CharacterShoot : MonoBehaviour
         disparando = false;
 
         //Obtenemos la posición de los instanciadores de bala
-        armaPosR = GameObject.Find("weaponPosR").transform;
-        armaPosL = GameObject.Find("weaponPosL").transform;
+        armaPosR = balaPosR.transform;
+        armaPosL = balaPosL.transform;
 
     }
     public void Shoot(string mirando)
@@ -41,7 +45,7 @@ public class CharacterShoot : MonoBehaviour
     {
         while(amo > 0)
         {
-            print("Disparo del arma" + mirando);
+            //print("Disparo del arma" + mirando);
             //Instanciamos la bala, dependiendo de donde miremos
             if(mirando == "R")
             {
