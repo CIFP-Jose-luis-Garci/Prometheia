@@ -23,7 +23,7 @@ public class Character_Move : MonoBehaviour
     [SerializeField] float speed = 3f;
     [SerializeField] float impulsoV = 4f;
     [SerializeField] float impulsoH = 4f;
-    [SerializeField] bool isGrounded;
+    public     bool isGrounded;
 
     //Booleanas para los controles
     bool jumpButton;
@@ -35,6 +35,9 @@ public class Character_Move : MonoBehaviour
 
     //Acceso al script de disparo
     CharacterShoot characterShoot;
+
+
+    public float desplX;
 
 
     // Start is called before the first frame update
@@ -58,13 +61,11 @@ public class Character_Move : MonoBehaviour
 
         //Acceso al script de disparo
         characterShoot = GetComponent<CharacterShoot>();
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         //Método que realiza los movimientos del personaje
         MoveCharacter();
 
@@ -96,9 +97,8 @@ public class Character_Move : MonoBehaviour
 
     void MoveCharacter()
     {
-        float desplX = Input.GetAxis("Horizontal");
+        desplX = Input.GetAxis("Horizontal");
         anim.SetFloat("MoveHor", desplX);
-
        
         //Actualizamos el estado del detector de suelo
         anim.SetBool("Grounded", isGrounded);
@@ -206,6 +206,7 @@ public class Character_Move : MonoBehaviour
         }
 
     }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

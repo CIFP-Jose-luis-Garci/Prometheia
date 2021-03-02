@@ -13,6 +13,7 @@ public class Bullet : MonoBehaviour
     GameObject personaje;
     Transform characterPos;
     BarraDeVida barraDeVida;
+    EnemyMove enemyMove;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class Bullet : MonoBehaviour
         personaje = GameObject.Find("Character");
         characterPos = personaje.transform;
         barraDeVida = personaje.GetComponent<BarraDeVida>();
+        enemyMove = GameObject.Find("Enemigo").GetComponent<EnemyMove>();
 
         //RigifBody de la bala
         rb2D = GetComponent<Rigidbody2D>();
@@ -58,7 +60,7 @@ public class Bullet : MonoBehaviour
         //Si es un enemigo, lo destruimos
         if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(collision.gameObject);
+            enemyMove.SendMessage("ImpactoBala");
         }
 
         Destroy(this.gameObject);

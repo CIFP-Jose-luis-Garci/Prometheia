@@ -7,11 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/UI.unity
-    guid: 6b52b8a9e19aa284cbb950e24c2c47e7
-  - enabled: 0
-    path: Assets/Scenes/escenarios_ortografico.unity
-    guid: d36b170fb8a68384db50872e1144a3c8
+    guid: d744e4f915a949a488fc321c9087d382
   - enabled: 1
     path: Assets/Scenes/escenariosPasillo.unity
-    guid: aa39f4d6b5bdf0d45bc7d1e7a99bad28
+    guid: 247f07bafd57eda49909e769306f3e06
+  - enabled: 1
+    path: Assets/Scenes/bossRoom.unity
+    guid: 64d05358cb526f249b10a57ebb3ff025
   m_configObjects: {}

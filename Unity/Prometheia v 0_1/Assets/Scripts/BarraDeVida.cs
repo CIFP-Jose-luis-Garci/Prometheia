@@ -12,6 +12,8 @@ public class BarraDeVida : MonoBehaviour
 
     SpriteRenderer characterRenderer;
 
+    public AudioClip gruntClip;
+    public AudioSource audioSource;
 
     private void Start()
     {
@@ -43,7 +45,13 @@ public class BarraDeVida : MonoBehaviour
 
     public void muertePersonaje()
     {
+        audioSource.PlayOneShot(gruntClip);
         characterRenderer.enabled = false;
+        //Invoke("parar", 1f);
+        
+    }
+    public void parar()
+    {
         Time.timeScale = 0f;
     }
 

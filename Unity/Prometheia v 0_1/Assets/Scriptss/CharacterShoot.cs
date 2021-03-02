@@ -8,6 +8,9 @@ public class CharacterShoot : MonoBehaviour
     public int amo;
     bool disparando;
 
+    public AudioSource audioSource;
+    public AudioClip shotClip;
+
     //Prefab con la bala
     [SerializeField] GameObject balaR;
     [SerializeField] GameObject balaL;
@@ -50,12 +53,14 @@ public class CharacterShoot : MonoBehaviour
             if(mirando == "R")
             {
                 Instantiate(balaR, armaPosR.position, Quaternion.identity);
+                audioSource.PlayOneShot(shotClip);
             }
             else if(mirando == "L")
             {
                 Instantiate(balaL, armaPosL.position, Quaternion.identity);
+                audioSource.PlayOneShot(shotClip);
             }
-            
+
             yield return new WaitForSeconds(cadenciaDisparo);
 
         }

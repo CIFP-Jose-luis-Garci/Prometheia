@@ -20,9 +20,16 @@ public class EnemyMove : MonoBehaviour
     public float rondaTime;
     [SerializeField] bool correrDerecha;
 
+    public float vidaTotalE;
+    public float vidaActualE;
+
 
     void Start()
     {
+
+        vidaActualE = 30f;
+        vidaTotalE = 30f;
+
         //Desactivamos esta opción para que los RayCast no se detecten a sí mismmos
         Physics2D.queriesStartInColliders = false;
 
@@ -136,6 +143,11 @@ public class EnemyMove : MonoBehaviour
 
             yield return new WaitForSeconds(rondaTime);
         }
+    }
+
+    public void ImpactoBala()
+    {
+        vidaActualE -= 10f;
     }
 
 }
