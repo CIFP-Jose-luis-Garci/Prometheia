@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5721961148351099765}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (81)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 647367375979183943}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (77)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 1139514732901851387}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (89)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 4319087043265115003}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (82)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1460,7 +1460,7 @@ GameObject:
   - component: {fileID: 3272429414879100475}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (87)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2112,7 +2112,7 @@ GameObject:
   - component: {fileID: 7888884744890429127}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (88)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2274,7 +2274,7 @@ GameObject:
   - component: {fileID: 8329427240260147035}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (79)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2740,7 +2740,7 @@ GameObject:
   - component: {fileID: 3468824602498955083}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (84)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3044,7 +3044,7 @@ GameObject:
   - component: {fileID: 6032940763743995035}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (86)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3449,7 +3449,7 @@ GameObject:
   - component: {fileID: 4613333143369034536}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (90)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4485,7 +4485,7 @@ GameObject:
   - component: {fileID: 4702504001244145659}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (76)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5579,7 +5579,7 @@ GameObject:
   - component: {fileID: 3341152422598395807}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (85)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6088,7 +6088,7 @@ GameObject:
   - component: {fileID: 4332721037897645843}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (83)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7489,7 +7489,7 @@ GameObject:
   - component: {fileID: 1790585652885917120}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (80)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8705,7 +8705,7 @@ GameObject:
   - component: {fileID: 6571552062141666285}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (91)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9171,7 +9171,7 @@ GameObject:
   - component: {fileID: 379002534084161255}
   m_Layer: 0
   m_Name: sprites_escenarios_2 (78)
-  m_TagString: Untagged
+  m_TagString: Plataformas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

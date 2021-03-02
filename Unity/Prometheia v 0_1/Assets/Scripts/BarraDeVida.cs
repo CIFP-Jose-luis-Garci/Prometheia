@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BarraDeVida : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class BarraDeVida : MonoBehaviour
     public float vidaMaxima;
 
     SpriteRenderer characterRenderer;
+
 
     private void Start()
     {
@@ -43,5 +45,11 @@ public class BarraDeVida : MonoBehaviour
     {
         characterRenderer.enabled = false;
         Time.timeScale = 0f;
+    }
+
+    public void impactoEnemigo()
+    {
+        vidaActual -= 10f;
+        UpdateBarra();
     }
 }
