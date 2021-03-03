@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    ControlPartida controlPartida;
+
+    public void Awake()
+    {
+        controlPartida = GameObject.Find("ControlPartida").GetComponent<ControlPartida>();
+    }
     public void goJugar()
     {
         SceneManager.LoadScene("escenariosPasillo");
@@ -15,6 +21,8 @@ public class Menu : MonoBehaviour
     }
     public void goCargar()
     {
+        controlPartida.setContinuar();
+        SceneManager.LoadScene("escenariosPasillo");
 
     }
     public void goSalir()

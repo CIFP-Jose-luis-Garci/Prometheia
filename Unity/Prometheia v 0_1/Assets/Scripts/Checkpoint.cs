@@ -4,34 +4,22 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-
+    DatabaseController databaseController;
     private Transform character;
 
     // Start is called before the first frame update
     void Start()
     {
         character = GameObject.Find("Character").GetComponent<Transform>();
+        databaseController = GameObject.Find("DatabaseController").GetComponent<DatabaseController>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Vector3 characterP = new Vector3(character.position.x, character.position.y + 3.5f, transform.position.z);
-
-        if (characterP.x > 127f)
+        if(collision.gameObject.name == "Character")
         {
-            //Save the current Game as a new saved Game
-            SaveLoad.Save();
-            //Move on to game...
-            Application.LoadLevel(1);
-        }
-
-        if (characterP.x > 228f && characterP.y > 40.59f)
-        {
-            //Save the current Game as a new saved Game
-            SaveLoad.Save();
-            //Move on to game...
-            Application.LoadLevel(1);
+            databaseController.escribirPartida(character.position);
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }

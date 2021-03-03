@@ -11,6 +11,7 @@ public class BarraDeVida : MonoBehaviour
     public float vidaMaxima;
 
     SpriteRenderer characterRenderer;
+    PanelMuerte panelMuerte;
 
     public AudioClip gruntClip;
     public AudioSource audioSource;
@@ -20,21 +21,20 @@ public class BarraDeVida : MonoBehaviour
         vidaActual = 100f;
         vidaMaxima = 100f;
         characterRenderer = GameObject.Find("Character").GetComponent<SpriteRenderer>();
+        panelMuerte = GameObject.Find("Canvas").GetComponent<PanelMuerte>();
         //Ponemos la barra de vida en 1
         UpdateBarra();
     }
 
-    private void Update()
-    {
-        if(vidaActual == 0)
-        {
-            muertePersonaje();
-        }
-    }
     //Creo una función que actuaiza la barra de vida, para que no lo haga en cada fotograma
     void UpdateBarra()
     {
         barraDeVida.fillAmount = vidaActual / vidaMaxima;
+        if (vidaActual <= 0)
+        {
+            panelMuerte.controlPanel();
+            muertePersonaje();
+        }
     }
 
     public void ImpactoBala()
@@ -47,12 +47,16 @@ public class BarraDeVida : MonoBehaviour
     {
         audioSource.PlayOneShot(gruntClip);
         characterRenderer.enabled = false;
-        //Invoke("parar", 1f);
-        
-    }
-    public void parar()
-    {
         Time.timeScale = 0f;
+    }
+    
+    public void revivir()
+    {
+        panelMuerte.controlPanel();
+        vidaActual = vidaMaxima;
+        UpdateBarra();
+        characterRenderer.enabled = true;
+        Time.timeScale = 1f;
     }
 
     public void impactoEnemigo()
