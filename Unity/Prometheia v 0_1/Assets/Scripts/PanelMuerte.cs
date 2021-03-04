@@ -15,8 +15,8 @@ public class PanelMuerte : MonoBehaviour
     void Start()
     {
         muertoPanel.SetActive(false);
-        botonSource = GameObject.Find("SonidoBoton").GetComponent<AudioSource>();
-        botonClip = GameObject.Find("SonidoBoton").GetComponent<AudioClip>();
+        //botonSource = GameObject.Find("SonidoBoton").GetComponent<AudioSource>();
+        //botonClip = GameObject.Find("SonidoBoton").GetComponent<AudioClip>();
     }
 
     public void controlPanel()
