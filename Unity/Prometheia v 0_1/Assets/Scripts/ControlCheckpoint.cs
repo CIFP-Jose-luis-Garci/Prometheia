@@ -9,6 +9,8 @@ public class ControlCheckpoint : MonoBehaviour
     private DatabaseController databaseController;
     private bool continuar = false;
     private BarraDeVida barraVida;
+    public AudioSource botonSource;
+    public AudioClip botonClip;
 
     private void Awake()
     {
@@ -16,6 +18,8 @@ public class ControlCheckpoint : MonoBehaviour
         character = GameObject.Find("Character").GetComponent<Transform>();
         databaseController = GameObject.Find("DatabaseController").GetComponent<DatabaseController>();
         barraVida = GameObject.Find("Character").GetComponent<BarraDeVida>();
+        botonSource = GameObject.Find("SonidoBoton").GetComponent<AudioSource>();
+        botonClip = GameObject.Find("SonidoBoton").GetComponent<AudioClip>();
     }
 
     // Start is called before the first frame update
@@ -39,6 +43,7 @@ public class ControlCheckpoint : MonoBehaviour
 
     public void cargarPartida()
     {
+        botonSource.PlayOneShot(botonClip);
         barraVida.revivir();
         character.position = databaseController.leerPartida();
 

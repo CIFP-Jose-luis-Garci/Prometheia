@@ -39,6 +39,8 @@ public class Character_Move : MonoBehaviour
 
     public float desplX;
 
+    public bool cambiarArma = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -81,11 +83,13 @@ public class Character_Move : MonoBehaviour
             {
                 imagen.sprite = imagen2;
                 arma = 2;
+                cambiarArma = true;
             }
             else
             {
                 imagen.sprite = imagen1;
                 arma = 1;
+                cambiarArma = false;
             }
             //Cambiamos el parámetro de animator
             anim.SetInteger("Arma", arma);

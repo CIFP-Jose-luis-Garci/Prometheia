@@ -60,7 +60,6 @@ public class EnemyMove : MonoBehaviour
         //creamos un raycast a la altura de los ojos
         // Creamos un Vector 2 a la altura de los ojos del enemigo
         Vector2 eyesPos = transform.position + new Vector3(0, 1.2f, 0);
-        
 
         
         //Dependiendo de hacia dónde esté mirando y si no estamos disparando
@@ -145,9 +144,24 @@ public class EnemyMove : MonoBehaviour
         }
     }
 
-    public void ImpactoBala()
+    public void ImpactoBalaMala()
     {
         vidaActualE -= 10f;
+        muerte();
+    }
+
+    public void ImpactoBalaBuena()
+    {
+        vidaActualE -= 7f;
+        muerte();
+    }
+
+    private void muerte()
+    {
+        if (vidaActualE <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

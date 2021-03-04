@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class SonidoCharacter : MonoBehaviour
 {
-
-    public AudioSource auidoSource;
+    private AudioSource audioSource;
     public AudioClip stepClip;
     public AudioClip armandoClip;
 
@@ -13,7 +12,8 @@ public class SonidoCharacter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        auidoSource = GameObject.Find("Character").GetComponent<AudioSource>();
+        GetComponent<AudioSource>();
+        audioSource = GameObject.Find("Character").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,11 +24,11 @@ public class SonidoCharacter : MonoBehaviour
 
     public void step()
     {
-        auidoSource.PlayOneShot(stepClip);
+        audioSource.PlayOneShot(stepClip);
     }
 
     public void armando()
     {
-        auidoSource.PlayOneShot(armandoClip);
+        audioSource.PlayOneShot(armandoClip);
     }
 }

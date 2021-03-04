@@ -39,7 +39,7 @@ public class BarraDeVida : MonoBehaviour
 
     public void ImpactoBala()
     {
-        vidaActual -= 20f;
+        vidaActual -= 15f;
         UpdateBarra();
     }
 
@@ -62,6 +62,18 @@ public class BarraDeVida : MonoBehaviour
     public void impactoEnemigo()
     {
         vidaActual -= 10f;
+        UpdateBarra();
+    }
+
+    public void sanarArmaBuena()
+    {
+        vidaActual += 3f;
+        UpdateBarra();
+    }
+
+    public void sangrarArmaMala()
+    {
+        vidaActual -= 5f;
         UpdateBarra();
     }
 }
