@@ -31,18 +31,18 @@ public class PanelMuerte : MonoBehaviour
     }
     public void goMenu()
     {
-        botonSource.PlayOneShot(botonClip);
+        //botonSource.PlayOneShot(botonClip);
         SceneManager.LoadScene("UI");
     }
     public void goJugar()
     {
-        botonSource.PlayOneShot(botonClip);
+        //botonSource.PlayOneShot(botonClip);
         Time.timeScale = 1f;
         SceneManager.LoadScene("escenariosPasillo");
     }
     public void goSalir()
     {
-        botonSource.PlayOneShot(botonClip);
+        //botonSource.PlayOneShot(botonClip);
         Application.Quit();
     }
 }
