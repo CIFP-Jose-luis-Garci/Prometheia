@@ -8,7 +8,7 @@ public class CharacterShoot : MonoBehaviour
     public int amo;
     bool disparando;
 
-    public AudioSource audioSource;
+    AudioSource audioSource;
     public AudioClip shotClip;
 
     //Prefab con la bala
@@ -39,6 +39,8 @@ public class CharacterShoot : MonoBehaviour
         armaPosR = balaPosR.transform;
         armaPosL = balaPosL.transform;
 
+        audioSource = GetComponent<AudioSource>();
+
     }
     public void Shoot(string mirando)
     {
@@ -56,7 +58,7 @@ public class CharacterShoot : MonoBehaviour
     {
         while(amo > 0)
         {
-            //print("Disparo del arma" + mirando);
+            //print("Disparo del arma" + mirando + "con cadencia " + cadenciaDisparo);
             //Instanciamos la bala, dependiendo de donde miremos
             if (characterMove.cambiarArma == false)
             {

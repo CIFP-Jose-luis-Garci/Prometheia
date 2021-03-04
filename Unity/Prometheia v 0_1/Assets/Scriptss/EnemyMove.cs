@@ -43,7 +43,7 @@ public class EnemyMove : MonoBehaviour
         distancia = 11f;
 
         //Tiempo de ronda e iniciamos la ronda
-        rondaTime = 4f;
+        rondaTime = 2f;
         correrDerecha = true;
         StartCoroutine("Ronda");
 

@@ -216,7 +216,15 @@ public class Character_Move : MonoBehaviour
     {
         if (collision.gameObject.tag == "Plataformas")
         {
-            print("Colisionando");
+            //print("Colisionando");
+            isGrounded = true;
+        }
+
+        else if (collision.gameObject.tag == "Enemy")
+        {
+            print("Has golpeado a un enemigo");
+            Vector2 empujon = new Vector2(20, 30);
+            rb2D.AddForce(empujon, ForceMode2D.Impulse);
             isGrounded = true;
         }
 
@@ -224,9 +232,9 @@ public class Character_Move : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Plataformas")
+        if (collision.gameObject.tag == "Plataformas" || collision.gameObject.tag == "Enemy")
         {
-            print("NO Colisionando");
+             //print("NO Colisionando");
             isGrounded = false;
         }
     }

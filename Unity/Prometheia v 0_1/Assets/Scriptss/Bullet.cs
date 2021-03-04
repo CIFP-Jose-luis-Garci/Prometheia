@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
         personaje = GameObject.Find("Character");
         characterPos = personaje.transform;
         barraDeVida = personaje.GetComponent<BarraDeVida>();
-        enemyMove = GameObject.Find("Enemigo").GetComponent<EnemyMove>();
+        //enemyMove = GameObject.Find("Enemigo").GetComponent<EnemyMove>();
         characterMove = GameObject.Find("Character").GetComponent<Character_Move>();
 
         //RigifBody de la bala
@@ -57,7 +57,9 @@ public class Bullet : MonoBehaviour
         //Si es un enemigo, lo destruimos
         if (collision.gameObject.tag == "Enemy")
         {
-            if(characterMove.cambiarArma == false)
+            enemyMove = collision.gameObject.GetComponent<EnemyMove>();
+
+            if (characterMove.cambiarArma == false)
             {
                 enemyMove.SendMessage("ImpactoBalaMala");
                 barraDeVida.SendMessage("sangrarArmaMala");
@@ -77,9 +79,9 @@ public class Bullet : MonoBehaviour
         for(; ; )
         {
             float dist = Vector3.Distance(characterPos.position, transform.position);
-            //print("Distance to other: " + dist);
+            print("Distance to other: " + dist);
             //Si la distancia supera 9 unidades se ha salido de pantalla y la destruimos
-            if(dist > 11)
+            if(dist > 15)
             {
                 Destroy(this.gameObject);
             }
